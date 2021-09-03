@@ -1,0 +1,96 @@
+.shape{
+    background-color: silver;
+    border: 5px outset red;
+  text-align: center;
+}
+
+.calculatorbody{
+  background-color: lightgrey;
+  height: 600px;
+  width: 300px;
+  border: 15px solid grey;
+  padding: 20px;
+  margin: auto;
+  border-radius: 25px;
+}
+.screen{
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  border-radius: 25px;
+}
+.screendiv{
+  background-color: white;
+  height: 100%;
+  width: 70%;
+  position: relative;
+  float: left;
+  border-radius: 20px;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 69px);
+  grid-template-rows: repeat(4, 110px);
+  padding-top: 30px;
+  gap: 8px;
+  
+}
+.gridelement{
+  background-color:whitesmoke;
+  border: 2px solid black;
+  padding: 10px;
+  font: bold;
+  font-size: xx-large ;
+  border-radius: 25px;
+  
+}
+.screendiv1{
+  height: 30%;
+  text-align: right;
+}
+.screendiv2{
+font-size: xxx-large;
+text-align: end;
+position: relative;
+right: 0;
+bottom: 0;
+height: 70%;
+
+}
+.clearer{
+  height: 100%;
+  width: 30%;
+ float: right;
+ position: relative;
+ border-radius: 25px;
+}
+.backspace{
+
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  font-weight: bold;
+  border-bottom-right-radius: 25px;
+ 
+}
+.clear{
+  height: 50%;
+  width: 100%;
+  background-color: blue;
+  font-weight: bold;
+  border-top-right-radius: 25px;
+ 
+}
+body{
+  background-color: black;
+}
+h2{
+  color: azure;
+ font-size: xx-large;
+ font-weight: bolder;
+  text-align: center;
+}
