@@ -1,0 +1,51 @@
+:root{
+  --n: 2;
+}
+#heading{
+  background-color: whitesmoke;
+  margin: auto;
+}
+#topic{
+  color: black;
+  font-weight: bolder;
+}
+#button_holder{
+  background-color: blueviolet;
+  margin: auto;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  background-color: black;
+}
+label{
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+#myDiv {
+    display: inline-block;
+    border: 16px solid #00ad9a;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(var(--n), 24px);
+    grid-template-rows: repeat(var(--n), 24px);
+    grid-gap: 0px;
+  }
+  #cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+  }
+
+ 
